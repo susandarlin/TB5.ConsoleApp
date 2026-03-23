@@ -11,7 +11,7 @@ namespace TB5.ConsoleApp.AdoDotNetSample;
 public class AdoDonetService
 {
 
-    private string connectionString = "Server=SANDAR\\MSSQLSERVER2022;Database=Batch5MiniPOS;User Id=sa;Password=admin123!;TrustServerCertificate=True";
+    private string connectionString = Environment.GetEnvironmentVariable("MSSQLSERVER2022_Connection")!;
 
     public void Create()
     {

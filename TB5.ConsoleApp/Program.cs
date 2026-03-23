@@ -7,7 +7,7 @@ SqlConnection conn = new SqlConnection("");
 
 AdoDonetService service = new AdoDonetService();
 //service.Create();
-//service.Read();
+service.Read();
 //service.Delete();
 //service.Edit();
-service.Update();
+//service.Update();
